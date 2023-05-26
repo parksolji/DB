@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="LogIn.css" />
+  </head>
+  <body style="background-color: #1e1e1e">
+    <div id="title">Login</div>
+    <div id="outerBox">
+      <div id="innerBox">
+        <div class="set">
+          <b class="info">ID</b>
+          <div class="inputBox">
+            <input id="Id" placeholder="ID" />
+          </div>
+          <div class="set">
+            <b class="info">PW</b>
+            <div class="inputBox">
+              <input id="Pw" type="password" placeholder="Password" />
+            </div>
+          </div>
+          <div id="login">
+            <button id="loginBtn">Login</button>
+          </div>
+        </div>
+      </div>
+      <div id="noId">
+        <label>Are you a new member?</label>
+        <button id="signupBtn" onclick="location.href='SignUp.html' ">
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
