@@ -24,6 +24,14 @@
   font-size: 50px;
   font-weight: 530;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#type {
+  display: flex;
+  justify-content: center;
+  color: rgb(136, 136, 136);
+  font-size: 20px;
+  margin-top: 15px;
   margin-bottom: 50px;
 }
 
