@@ -57,18 +57,22 @@ body {
 #i1 {
   width: 36px;
   margin-top: 10px;
+  filter: brightness(0%) invert(100%);
 }
 #i2 {
   width: 30px;
   margin-top: 12px;
+  filter: brightness(0%) invert(100%);
 }
 #i3 {
   width: 32px;
   margin-top: 14px;
+  filter: brightness(0%) invert(100%);
 }
 #i4 {
   width: 32px;
   margin-top: 12px;
+  filter: brightness(0%) invert(100%);
 }
 #b {
   margin-top: 100px;
