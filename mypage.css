@@ -138,9 +138,7 @@ body {
   border-radius: 0.5em;
   display: flex;
 }
-#infoSet {
-  margin-left: 150px;
-}
+
 .label {
   font-size: 20px;
   font-weight: 550;
@@ -148,6 +146,7 @@ body {
 }
 #bottomBox {
   display: flex;
+  justify-content: center;
 }
 .interest {
   margin-left: 100px;
