@@ -157,6 +157,11 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+.x {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 b1 {
   width: 200px;
 }
