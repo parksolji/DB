@@ -119,79 +119,89 @@
           <b3>010-1234-5678</b3>
         </div>
         <div class="priBox">
-          <b2>주소</b2>
-          <b3>전라북도 군산시 궁포 2로 20</b3>
+          <b2>소속 헬스장</b2>
+          <b3>신축 체육관</b3>
         </div>
         <div class="priBox">
-          <b2>몸무게</b2>
-          <b3>44</b3>
-        </div>
-        <div class="priBox">
-          <b2>키</b2>
-          <b3>156</b3>
-        </div>
-        <div id="comEdit">
-          <button class="comBtn" id="cancel">cancel</button>
-          <button class="comBtn" id="saveBtn">save</button>
+          <b2>업무 시간</b2>
+          <b3>18:00 ~ 23:00</b3>
         </div>
       </div>
       <div id="rightBox">
         <div class="interest">
-          <div class="label">관심 등록한 헬스장</div>
+          <div class="label">수상 경력</div>
           <div class="priBox">
-            <b1>헬스장 이름</b1>
+            <b1>수상 경력</b1>
             <div class="cancelBtn">
               <button class="x">X</button>
             </div>
           </div>
           <div class="priBox">
-            <b1>헬스장 이름</b1>
+            <b1>수상 경력</b1>
             <div class="cancelBtn">
               <button class="x">X</button>
             </div>
           </div>
           <div class="priBox">
-            <b1>헬스장 이름</b1>
+            <b1>수상 경력</b1>
             <div class="cancelBtn">
               <button class="x">X</button>
             </div>
           </div>
           <div class="priBox">
-            <b1>헬스장 이름</b1>
+            <b1>수상 경력</b1>
             <div class="cancelBtn">
               <button class="x">X</button>
             </div>
           </div>
         </div>
         <div class="interest" id="iT">
-          <div class="label">관심 등록한 트레이너</div>
+          <div class="label">자격증</div>
           <div class="priBox">
-            <b1>트레이너 이름</b1>
+            <b1>자격증</b1>
             <div class="cancelBtn">
               <button class="x">X</button>
             </div>
           </div>
           <div class="priBox">
-            <b1>트레이너 이름</b1>
+            <b1>자격증</b1>
             <div class="cancelBtn">
               <button class="x">X</button>
             </div>
           </div>
           <div class="priBox">
-            <b1>트레이너 이름</b1>
+            <b1>자격증</b1>
             <div class="cancelBtn">
               <button class="x">X</button>
             </div>
           </div>
           <div class="priBox">
-            <b1>트레이너 이름</b1>
+            <b1>자격증</b1>
             <div class="cancelBtn">
               <button class="x">X</button>
             </div>
           </div>
-        </div>
       </div>
     </div>
   </body>
-  <script src="mypage.js"></script>
+  <script>
+    const li = document.getElementById("btnSet");
+    const $profile = document.getElementById("profile");
+    const $bt = document.getElementById("bottomBox");
+    const $listBtn = document.getElementById("listBtn");
+
+    function toggle() {
+      if (li.style.display !== "none") {
+        $profile.style.opacity = 1;
+        $bt.style.opacity = 1;
+        li.style.display = "none";
+      } else {
+        $profile.style.opacity = 0.4;
+        $bt.style.opacity = 0.4;
+        li.style.opacity = 1;
+        li.style.display = "flex";
+      }
+    }
+    $listBtn.addEventListener("click", toggle);
+  </script>
 </html>
